@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.RubikCrush1.rubikcrushgame">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/yenilogo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name="com.RubikCrush1.GamePlayFrans"></activity>
+        <activity android:name="com.RubikCrush1.GamePlayAlman" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-6469014985923539~6503366730" />
+
+        <activity
+            android:name=".ScoreBoard4Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScoreBoard3Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod4.FourColorGames.FourColorFour4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod4.FourColorGames.FourColorThree4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod4.ThreeColorGames.ThreeColorFour4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod4.ThreeColorGames.ThreeColorThree4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod4.TwoColorGames.TwoColorFour4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod4.TwoColorGames.TwoColorThree4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3.FourColorGames.FourColorFour3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3.FourColorGames.FourColorThree3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3.ThreeColorGames.ThreeColorFour3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3.ThreeColorGames.ThreeColorThree3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3.TwoColorGames.TwoColorFour3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3.TwoColorGames.TwoColorThree3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3hard.FourColorGames.FourColorFourHard3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3hard.FourColorGames.FourColorThreeHard3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3hard.ThreeColorGames.ThreeColorFourHard3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3hard.ThreeColorGames.ThreeColorThreeHard3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3hard.TwoColorGames.TwoColorFourHard3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod3hard.TwoColorGames.TwoColorThreeHard3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2hard.FourColorGames.FourColorFourHard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2hard.FourColorGames.FourColorThreeHard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2hard.ThreeColorGames.ThreeColorFourHard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2hard.ThreeColorGames.ThreeColorThreeHard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2hard.TwoColorGames.TwoColorFourHard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2hard.TwoColorGames.TwoColorThreeHard2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2.FourColorGames.FourColorFour2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2.FourColorGames.FourColorThree2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2.ThreeColorGames.ThreeColorFour2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2.ThreeColorGames.ThreeColorThree2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2.TwoColorGames.TwoColorFour2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mod2.TwoColorGames.TwoColorThree2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PlayOptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GamePlayEn"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GamePlayOptions"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScoreBoard2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScoreBoardOptionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FourColorGames.FourColorSix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThreeColorGames.ThreeColorSix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TwoColorGames.TwoColorSix"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FourColorGames.FourColorFive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThreeColorGames.ThreeColurFive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TwoColorGames.TwoColorFive"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ScoreBoardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FourColorGames.FourColorFour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FourColorGames.FourColorThree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FourColorGames.FourColorTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThreeColorGames.ThreeColorFour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThreeColorGames.ThreeColorThree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ThreeColorGames.ThreeColorTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TwoColorGames.TwoColorFour"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TwoColorGames.TwoColorThree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TwoColorGames.TwoColorTwo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GameplayActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

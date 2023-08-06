@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient3"
+    tools:context=".mod4.TwoColorGames.TwoColorThree4">
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="3dp"
+        android:layout_height="match_parent"
+        android:background="#DC1559"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view4"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#DC1559"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-6469014985923539/9323446081"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></com.google.android.gms.ads.AdView>
+
+    <ImageButton
+        android:id="@+id/imageButton22"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton26"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton23"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton23"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton27"
+        app:layout_constraintEnd_toStartOf="@+id/view3"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton26"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton27"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton27"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="4dp"
+        app:srcCompat="@drawable/dog"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/view3"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton30"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton31"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton31"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton32"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton56"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton57"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton37"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton54"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton37"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton53"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton36"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton32"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton53"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton33"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton55"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton56"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton54"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton57"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton36"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton37"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton36"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton33"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton33"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toEndOf="@+id/imageButton32"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton34"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton35"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton30"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton35"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton31"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton38"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton44"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton39"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton39"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton22"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton40"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton40"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton23"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton24"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton28"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton41"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton24"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton29"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintStart_toEndOf="@+id/imageButton28"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton46"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton47"
+        app:layout_constraintStart_toEndOf="@+id/imageButton25"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton42"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton25"
+        app:layout_constraintStart_toEndOf="@+id/imageButton41"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton47"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="7dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toEndOf="@+id/imageButton29"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton43"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton46"
+        app:layout_constraintStart_toEndOf="@+id/imageButton42"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton25"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginBottom="5dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton29"
+        app:layout_constraintStart_toEndOf="@+id/imageButton24"
+        app:srcCompat="@color/black"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton28"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/view4"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton44"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton45"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton22"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton45"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton26"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton48"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton30"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton49"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton34"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton48"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton50"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton51"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton49"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton51"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton52"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton34"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton52"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton35"
+        app:srcCompat="@drawable/dog"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="a11ust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton38"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton4"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="a22ust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton39"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="a33ust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton40"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton58"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="a44ust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton41"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton59"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="a55ust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton42"
+        app:layout_constraintStart_toEndOf="@+id/imageButton58"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton60"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="a66ust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton43"
+        app:layout_constraintStart_toEndOf="@+id/imageButton59"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton61"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="a11yan"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton62"
+        app:layout_constraintStart_toEndOf="@+id/imageButton43"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton62"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="a22yan"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton63"
+        app:layout_constraintStart_toEndOf="@+id/imageButton46"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton63"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="a33yan"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintStart_toEndOf="@+id/imageButton47"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton64"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:onClick="a44yan"
+        app:layout_constraintStart_toEndOf="@+id/imageButton53"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton65"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:onClick="a55yan"
+        app:layout_constraintStart_toEndOf="@+id/imageButton54"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton64"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton66"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="7dp"
+        android:onClick="a66yan"
+        app:layout_constraintStart_toEndOf="@+id/imageButton55"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton65"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton67"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="a11yanyedek"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton68"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton38"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton68"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="10dp"
+        android:onClick="a22yanyedek"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton69"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton44"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton69"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="8dp"
+        android:onClick="a33yanyedek"
+        app:layout_constraintBottom_toBottomOf="@+id/view4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton45"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton70"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="a44yanyedek"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton48"
+        app:layout_constraintTop_toTopOf="@+id/view4"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton71"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="a55yanyedek"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton49"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton70"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton72"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="12dp"
+        android:onClick="a66yanyedek"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton50"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton71"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton73"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="a11ustyedek"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton74"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton50"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton74"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="a22ustyedek"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton75"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton51"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton75"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:onClick="a33ustyedek"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton52"
+        app:srcCompat="@drawable/circle_btn_color2"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton76"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="a44ustyedek"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton57"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton77"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="a55ustyedek"
+        app:layout_constraintStart_toEndOf="@+id/imageButton76"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton56"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/imageButton78"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="a66ustyedek"
+        app:layout_constraintStart_toEndOf="@+id/imageButton77"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton55"
+        app:srcCompat="@drawable/circle_btn_color"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="12dp"
+        android:text="sayac2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="70dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/gradient"
+        android:onClick="check2"
+        android:text="CHECK"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton4"
+        app:layout_constraintEnd_toStartOf="@+id/view3" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:onClick="carprazsolalt"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton73"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton72"
+        app:srcCompat="@drawable/circle_btn_color" />
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginBottom="26dp"
+        android:onClick="carprazsolust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton67"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton3"
+        app:srcCompat="@drawable/circle_btn_color2" />
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="23dp"
+        android:onClick="carprazsagust"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton61"
+        app:layout_constraintStart_toEndOf="@+id/imageButton60"
+        app:srcCompat="@drawable/circle_btn_color" />
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="24dp"
+        android:onClick="carprazsagalt"
+        app:layout_constraintStart_toEndOf="@+id/imageButton78"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton66"
+        app:srcCompat="@drawable/circle_btn_color2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

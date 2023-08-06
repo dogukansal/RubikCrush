@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Rubik Crush</string>
+    <string name="play">Play</string>
+    <string name="instructions">Instructıons</string>
+    <string name="exit">Exit</string>
+    <string name="sayac">sayac</string>
+    <string name="sayac2">sayac</string>
+    <string name="sayac3">sayac</string>
+    <string name="sayac4">sayac</string>
+    <string name="sayac5">sayac</string>
+    <string name="sayac6">sayac</string>
+    <string name="sayac7">sayac</string>
+    <string name="sayac8">sayac</string>
+    <string name="sayac9">sayac</string>
+</resources>

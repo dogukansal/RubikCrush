@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameplayActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Rubik Crush'a hoşgeldiniz. Oyunun genel amacı, renkleri bir araya toplayıp
+en az hareket sayısı ile oyunu bitirmektir. Eğer nasıl oynandığını videolar ile izlemek isterseniz youtube.com/bydodoo kanalından bulabilirsinz.
+ Haydi öncelikle dağınık gelen renkleri nasıl hareket ettireceğiz ona bakalım.
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton1131"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            app:srcCompat="@drawable/yenioynanis1" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4170dp"
+            android:text="Eğer anlamadığınız yer olursa youtube.com/bydodoo kanalından çeşitli videolara
+ulaşabilirsiniz. Ayrıca ulaşmak isterseniz de rubikcrushinfo@gmail.com adresinden mail atabilirsiniz. İyi Oyunlar"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Çevrelerinde bulunan daireler onun altında veya yanında bulunan renklerin yerlerini bu şekilde değiştirir.
+Ayrıca dairelerin renkleri size hangi rengin nerede toplanacağı hakkında bilgi verir. 1. levelda amacınız,
+altta görünen resim gibi renk değiştirme tuşlarının renkleriyle aynı şekilde bir araya topladıktan sonra kontrol etme
+tuşuna basmalısınız. Ne kadar az hareketle oyunu bitirirseniz o kadar fazla yıldız toplarsınız. Sol üst köşedeki sayı zamanınız ve
+sağ üst köşedeki hareket sayınızdır. Aşağıdaki resim, level 1, 3 renk ve 4x5 modundan bir görüntüdür.
+Level 1 in oyun modlarında 2x2 3x3 4x4 4x5 4x6 çeşitleri vardır. 4x5 in anlamı, her bir köşede 4 yatay ve 5 dikey renk olduğunu temsil eder.
+Yani sol üst köşede, sağ üst köşede, sol alt köşede, sağ alt köşede 4x5 adet renk vardır."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1131" />
+
+        <ImageButton
+            android:id="@+id/imageButton1146"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1131"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            app:srcCompat="@drawable/yenioynanis2" />
+
+        <ImageButton
+            android:id="@+id/imageButton1147"
+            android:layout_width="135dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76"
+            app:srcCompat="@drawable/oynanisfoto3" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Level 2 ye geçtiğinizde karşınıza X şeklinde simgeler çıkar. Bunların bazıları
+yana veya alta renk değiştirebilirken bazıları renk değiştiremez."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1147" />
+
+        <ImageButton
+            android:id="@+id/imageButton1148"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77"
+            app:srcCompat="@drawable/yenioynanis3" />
+
+        <ImageButton
+            android:id="@+id/imageButton1149"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1148"
+            app:layout_constraintTop_toBottomOf="@+id/textView77"
+            app:srcCompat="@drawable/yenioynanis4" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Herhangi bir yerinden renkler değişmiyor fakat ortadaki büyük çizginin yanlarında kalan
+X simgelerinin yerleri değişebilir. Sadece dikey olarak değil, yatay olarakta değiştirebilirsiniz."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1148" />
+
+        <ImageButton
+            android:id="@+id/imageButton1150"
+            android:layout_width="64dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"
+            app:srcCompat="@drawable/yenioynanis5" />
+
+        <ImageButton
+            android:id="@+id/imageButton1151"
+            android:layout_width="64dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1150"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"
+            app:srcCompat="@drawable/yenioynanis6" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Sol üst köşeden sağ alt köşeye kadar giden X simgelerini kendi aralarında yer değiştirmek için
+sol üst köşe ve sağ üst köşedeki çarprazda kalan butonlar ile değiştirebilirsiniz. Sağ üst ve sol alttaki X simgeleri de kendi aralarında yer değiştirir.
+Renkleri, çevrelerindeki butonlarla yine aynı şekilde toplayacaksınız fakat X simgelerinin olduğu kısımlar, kendi bölümünün rengini ister.
+Alttaki resimde sol üst bölmenin nasıl dizildiğini görüyorsunuz. Köşede kalan yuvarlak mavi ve X simgelerinin olduğu yerlerde mavi. Çevrelerindeki renk değiştirme butonları kırmızı,
+X simgelerinin dışında kalanlar da kırmızı."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1150" />
+
+        <ImageButton
+            android:id="@+id/imageButton1152"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView80"
+            app:srcCompat="@drawable/oynanisfoto5" />
+
+        <ImageButton
+            android:id="@+id/imageButton1153"
+            android:layout_width="225dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1152"
+            app:srcCompat="@drawable/yenioynanis8" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Level 2 nin zor modu da aynı şekilde oynanır fakat renk değişimleri ters. Alttaki resimde
+renklerin nasıl renk değiştirdiğini görüyorsunuz."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1153" />
+
+        <ImageButton
+            android:id="@+id/imageButton1154"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView81"
+            app:srcCompat="@drawable/yenioynanis9" />
+
+        <ImageButton
+            android:id="@+id/imageButton1155"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1154"
+            app:layout_constraintTop_toBottomOf="@+id/textView81"
+            app:srcCompat="@drawable/yenioynanis10" />
+
+        <ImageButton
+            android:id="@+id/imageButton1156"
+            android:layout_width="193dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1155"
+            app:srcCompat="@drawable/yenioynanis11" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Level 3 te bu sefer X simgelerimiz çarprazlara sarılmış durumda. Bu sefer çarprazlardaki yuvarlak farklı butonlar,
+sadece yatay olarak birbirlerini gören diğer X simgeleri ile yer değişebiliyor.
+Çevrelerdeki butonlar ise yine level 2 zor moddaki şekilde yer değiştirme özelliklerine sahipler.Üçlü olan X simgeleri yer değişebilirken ikili ve birli
+olanlar yer değiştiremiyor.
+"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1156" />
+
+        <ImageButton
+            android:id="@+id/imageButton1157"
+            android:layout_width="193dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82"
+            app:srcCompat="@drawable/yenioynanis12" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Level 3 zor modu, level 2 nin zor modu ile level 3 ün birleşiminden oluşmuştur.
+Tamamen oynanışlar aynıdır.Çarprazlardaki butonlar, çarprazlarda bulunan X simgelerini değiştirir. Çarprazlardaki
+X simgeleri ise yönlerindeki butonlar ile yer değiştirir."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1157" />
+
+        <ImageButton
+            android:id="@+id/imageButton1158"
+            android:layout_width="187dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView83"
+            app:srcCompat="@drawable/yenioynanis14" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Level 4 de bu sefer ortada X simgelerinden oluşan kareyi görürsünüz.
+Çarprazlarındaki butonlar, X simgelerini tek tek yerlerini yatay olarak değiştirir. Dikey olarak ise
+sadece 2. yuvarlak butonlar yerlerini değiştirebilir."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1158" />
+
+        <ImageButton
+            android:id="@+id/imageButton1159"
+            android:layout_width="187dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView84"
+            app:srcCompat="@drawable/yenioynanis15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

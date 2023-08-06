@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.RubikCrush1.GamePlayFrans">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Bienvenue sur Rubik Crush. Le but général du jeu est de collecter les couleurs et de terminer le jeu avec le moins de coups. Si vous voulez voir comment il se joue avec des vidéos, vous pouvez le trouver sur youtube.com/bydodoo."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/imageButton1131"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.045"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            app:srcCompat="@drawable/yenioynanis1" />
+
+        <TextView
+            android:id="@+id/textView74"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4170dp"
+            android:text="S'il y a quelque chose que vous ne comprenez pas, vous pouvez trouver diverses vidéos sur youtube.com/bydodoo. De plus, si vous souhaitez nous contacter, vous pouvez envoyer un e-mail à rubikcrushinfo@gmail.com. Bons jeux"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView76"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="C'est ainsi que les cercles qui l'entourent changent la place des couleurs en dessous ou à côté. De plus, les couleurs des cercles vous renseignent sur la couleur à collecter et où. Au 1er niveau, votre objectif est de collecter les couleurs des touches de changement de couleur, comme l'image ci-dessous, puis d'appuyer sur la touche de commande. Moins vous terminez le jeu, plus vous collectez d'étoiles. Le nombre dans le coin supérieur gauche est votre temps et le nombre de coups dans le coin supérieur droit. L'image ci-dessous est une vue du niveau 1, 3 couleurs et mode 4x5. Il existe des variantes 2x2 3x3 4x4 4x5 4x6 dans les modes de jeu du niveau 1. 4x5 signifie qu'il y a 4 couleurs horizontales et 5 verticales dans chaque coin. En d'autres termes, il y a 4x5 couleurs dans le coin supérieur gauche, le coin supérieur droit, le coin inférieur gauche, le coin inférieur droit."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1131" />
+
+        <ImageButton
+            android:id="@+id/imageButton1146"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1131"
+            app:layout_constraintTop_toBottomOf="@+id/textView33"
+            app:srcCompat="@drawable/yenioynanis2" />
+
+        <ImageButton
+            android:id="@+id/imageButton1147"
+            android:layout_width="135dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView76"
+            app:srcCompat="@drawable/oynanisfoto3" />
+
+        <TextView
+            android:id="@+id/textView77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:text="Lorsque vous atteignez le niveau 2, des icônes en forme de X apparaissent. Certains d'entre eux peuvent changer de couleur sur le côté ou en bas, tandis que d'autres ne le peuvent pas."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1147" />
+
+        <ImageButton
+            android:id="@+id/imageButton1148"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView77"
+            app:srcCompat="@drawable/yenioynanis3" />
+
+        <ImageButton
+            android:id="@+id/imageButton1149"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1148"
+            app:layout_constraintTop_toBottomOf="@+id/textView77"
+            app:srcCompat="@drawable/yenioynanis4" />
+
+        <TextView
+            android:id="@+id/textView78"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Les couleurs ne changent nulle part, mais les symboles X à côté de la grande ligne du milieu peuvent changer de position. Vous pouvez le changer non seulement verticalement, mais aussi horizontalement."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1148" />
+
+        <ImageButton
+            android:id="@+id/imageButton1150"
+            android:layout_width="64dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"
+            app:srcCompat="@drawable/yenioynanis5" />
+
+        <ImageButton
+            android:id="@+id/imageButton1151"
+            android:layout_width="64dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1150"
+            app:layout_constraintTop_toBottomOf="@+id/textView78"
+            app:srcCompat="@drawable/yenioynanis6" />
+
+        <TextView
+            android:id="@+id/textView80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Vous pouvez remplacer les icônes X qui vont du coin supérieur gauche au coin inférieur droit par les boutons croisés dans le coin supérieur gauche et le coin supérieur droit pour changer de place entre eux. Les icônes X en haut à droite et en bas à gauche alternent également entre elles. Vous collecterez les couleurs de la même manière que les boutons environnants, mais les parties avec les icônes X veulent la couleur de leur partie. Dans l'image ci-dessous, vous pouvez voir comment le volet supérieur gauche est aligné. C'est bleu là où les icônes bleues arrondies et X sont dans le coin. Les boutons de changement de couleur qui les entourent sont rouges, et ceux en dehors des icônes X sont également rouges."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1150" />
+
+        <ImageButton
+            android:id="@+id/imageButton1152"
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView80"
+            app:srcCompat="@drawable/oynanisfoto5" />
+
+        <ImageButton
+            android:id="@+id/imageButton1153"
+            android:layout_width="225dp"
+            android:layout_height="239dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1152"
+            app:srcCompat="@drawable/yenioynanis8" />
+
+        <TextView
+            android:id="@+id/textView81"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Le mode difficile du niveau 2 se joue de la même manière, mais les changements de couleur sont inversés. Dans l'image ci-dessous, vous pouvez voir comment les couleurs changent de couleur."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1153" />
+
+        <ImageButton
+            android:id="@+id/imageButton1154"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView81"
+            app:srcCompat="@drawable/yenioynanis9" />
+
+        <ImageButton
+            android:id="@+id/imageButton1155"
+            android:layout_width="37dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageButton1154"
+            app:layout_constraintTop_toBottomOf="@+id/textView81"
+            app:srcCompat="@drawable/yenioynanis10" />
+
+        <ImageButton
+            android:id="@+id/imageButton1156"
+            android:layout_width="193dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1155"
+            app:srcCompat="@drawable/yenioynanis11" />
+
+        <TextView
+            android:id="@+id/textView82"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Au niveau 3, cette fois nos symboles X sont entourés de croix. Cette fois, les différents boutons ronds sur les croix peuvent être échangés avec d'autres symboles X qui ne se voient qu'horizontalement. Les boutons dans les cercles ont la capacité de se déplacer comme dans le mode difficile de niveau 2. Alors que les symboles triple X peuvent être échangés, les symboles doubles et simples ne le peuvent pas. "
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1156" />
+
+        <ImageButton
+            android:id="@+id/imageButton1157"
+            android:layout_width="193dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView82"
+            app:srcCompat="@drawable/yenioynanis12" />
+
+        <TextView
+            android:id="@+id/textView83"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Le mode difficile de niveau 3 est une combinaison du mode difficile du niveau 2 et du niveau 3. Le gameplay est exactement le même. Les boutons sur les croix remplacent les symboles X sur les croix. Les symboles X dans les croix sont remplacés par les boutons dans leur direction."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1157" />
+
+        <ImageButton
+            android:id="@+id/imageButton1158"
+            android:layout_width="187dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView83"
+            app:srcCompat="@drawable/yenioynanis14" />
+
+        <TextView
+            android:id="@+id/textView84"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Au niveau 4, cette fois, vous verrez le carré composé de symboles X au milieu. Les boutons sur les croix déplacent les symboles X horizontalement, un par un. Verticalement, seuls les 2èmes boutons ronds peuvent changer de place."
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageButton1158" />
+
+        <ImageButton
+            android:id="@+id/imageButton1159"
+            android:layout_width="187dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="17dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView84"
+            app:srcCompat="@drawable/yenioynanis15" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
